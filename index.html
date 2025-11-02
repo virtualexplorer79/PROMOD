@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROMOD - Minecraft Mods</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #111;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #222;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 3px solid #3fa34d;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      color: #f0f0f0;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #3fa34d;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #3fa34d;
+    }
+
+    .mod {
+      background-color: #1c1c1c;
+      border-left: 5px solid #3fa34d;
+      margin: 10px 0;
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+
+    .mod a {
+      color: #3fa34d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .mod a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #222;
+      border-top: 2px solid #3fa34d;
+      color: #ccc;
+      margin-top: 40px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+      }
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="PROMOD Logo" />
+    <nav>
+      <a href="#" onclick="showSection('bedrock')">Bedrock Mods</a>
+      <a href="#" onclick="showSection('java')">Java Mods</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <!-- BEDROCK -->
+    <section id="bedrock">
+      <h1>🟩 Bedrock Mods</h1>
+
+      <h2>1.20+</h2>
+      <div class="mod">
+        <strong>Doors v2.2 by ICEy</strong><br>
+        <a href="https://pixeldrain.com/u/KoeAeKPQ" target="_blank">İndir</a>
+      </div>
+
+      <h2>1.21+</h2>
+      <div class="mod"><strong>The Doors Outdoors</strong><br><a href="https://pixeldrain.com/u/6Zt79Gap" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Sodium FPS Booster v1.1</strong><br><a href="https://pixeldrain.com/u/Hznis9xv" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Smartphone_s2</strong><br><a href="https://pixeldrain.com/u/oKubDsN1" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Small Items</strong><br><a href="https://pixeldrain.com/u/GZHfp6oA" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Modern Furniture</strong><br><a href="https://pixeldrain.com/u/g6hrXxDR" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Italian Brain Rot</strong><br><a href="https://pixeldrain.com/u/bXBUaEEf" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Glowing Ores</strong><br><a href="https://pixeldrain.com/u/2g5xK9uJ" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Actions n Stuff</strong><br><a href="https://pixeldrain.com/u/TXrTfcgn" target="_blank">İndir</a></div>
+      <div class="mod"><strong>RealTime in Minecraft</strong><br><a href="https://pixeldrain.com/u/E1ZhxHc1" target="_blank">İndir</a></div>
+    </section>
+
+    <!-- JAVA -->
+    <section id="java" class="hidden">
+      <h1>🟥 Java Mods</h1>
+
+      <h2>1.18 / 1.17 / 1.16</h2>
+      <div class="mod"><strong>Lots More Food</strong><br><a href="https://pixeldrain.com/u/oG4Q1LK4" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Slime Rancher Mod</strong><br><a href="https://pixeldrain.com/u/w1rrU388" target="_blank">İndir</a></div>
+
+      <h2>1.20+</h2>
+      <div class="mod"><strong>McDonalds Mod</strong><br><a href="https://pixeldrain.com/u/o8GB2gji" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Copper Tools</strong><br><a href="https://pixeldrain.com/u/LKJ7wPpY" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Siren Head</strong><br><a href="https://pixeldrain.com/u/J4CmCGrw" target="_blank">İndir</a></div>
+
+      <h2>1.21+</h2>
+      <div class="mod"><strong>Crystalcraft Unlimited</strong><br><a href="https://pixeldrain.com/u/pK283e9y" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Fantasy Furniture</strong><br><a href="https://pixeldrain.com/u/iajjy2gc" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Mandalas GUI + Darkmod</strong><br><a href="https://pixeldrain.com/u/N2Lejspj" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Physics Mod</strong><br><a href="https://pixeldrain.com/u/4o9VANBM" target="_blank">İndir</a></div>
+      <div class="mod"><strong>Armor Holder Poses Mod</strong><br><a href="https://pixeldrain.com/u/oaTD6VPX" target="_blank">İndir</a></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 PROMOD – Minecraft Mods No Virus | Tüm modlar güvenli şekilde paylaşılmaktadır.</p>
+  </footer>
+
+  <script>
+    function showSection(sectionId) {
+      document.getElementById('bedrock').classList.add('hidden');
+      document.getElementById('java').classList.add('hidden');
+      document.getElementById(sectionId).classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
